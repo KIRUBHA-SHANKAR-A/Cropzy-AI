@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './i18n';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import Homepage from './pages/Home';
 import CropRecommendation from './pages/CropRecommendation';
