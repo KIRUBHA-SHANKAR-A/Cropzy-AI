@@ -201,7 +201,7 @@ const Homepage = () => {
             <div className="text-center">
               <div className="bg-green-100 dark:bg-green-900/30 w-20 h-20 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
                 <img 
-                  src="/src/assets/how it works 1.png" 
+                  src={how1}
                   alt={t('home.howItWorks.step1.alt')} 
                   className="h-12 w-12 object-contain"
                 />
@@ -217,7 +217,7 @@ const Homepage = () => {
             <div className="text-center">
               <div className="bg-green-100 dark:bg-green-900/30 w-20 h-20 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
                 <img 
-                  src="/src/assets/how it works 2.png" 
+                  src={how2} 
                   alt={t('home.howItWorks.step2.alt')} 
                   className="h-12 w-12 object-contain"
                 />
@@ -233,7 +233,7 @@ const Homepage = () => {
             <div className="text-center">
               <div className="bg-green-100 dark:bg-green-900/30 w-20 h-20 rounded-full flex items-center justify-center text-3xl mx-auto mb-4">
                 <img 
-                  src="/src/assets/how it works 3.png" 
+                  src={how3} 
                   alt={t('home.howItWorks.step3.alt')} 
                   className="h-12 w-12 object-contain"
                 />
