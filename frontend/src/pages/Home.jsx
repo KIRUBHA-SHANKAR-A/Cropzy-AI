@@ -3,6 +3,10 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import CropCarousel from '../components/CropCarousel';
 import useScrollToTop from '../hooks/useScrollToTop';
+import heroImg from '../assets/hero-img.png';
+import how1 from '../assets/how it works 1.png';
+import how2 from '../assets/how it works 2.png';
+import how3 from '../assets/how it works 3.png';
 
 const Homepage = () => {
   const { t } = useTranslation();
@@ -154,7 +158,7 @@ const Homepage = () => {
           {/* Hero Image */}
           <div className="relative">
             <img 
-              src="/src/assets/hero-img.png"
+              src={heroImg}
               alt={t('home.hero.imageAlt')}
               className="rounded-2xl shadow-2xl"
             />
