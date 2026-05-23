@@ -326,8 +326,8 @@ const CropRotation = () => {
                             <div key={index} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border-2 border-green-200 dark:border-green-700 overflow-hidden">
                               <div className="bg-gradient-to-r from-green-600 to-emerald-600 px-4 py-2">
                                 <h3 className="font-bold text-white flex items-center gap-2">
-                                  <span className="text-xl">{getSeasonIcon(rec.season)}</span>
-                                  <span>{phaseNames[rec.season] || rec.season}</span>
+                                  {/* <span className="text-xl">{getSeasonIcon(rec.season)}</span>
+                                  <span>{phaseNames[rec.season] || rec.season}</span> */}
                                   <span className="ml-auto bg-white/30 px-2 py-0.5 rounded-full text-xs">
                                     {t('cropRotation.result.phase')} {index + 1}
                                   </span>
