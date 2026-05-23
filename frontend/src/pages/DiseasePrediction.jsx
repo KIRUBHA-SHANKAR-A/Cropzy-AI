@@ -51,7 +51,7 @@ const DiseasePrediction = () => {
     formData.append('image', selectedImage);
 
     try {
-      const response = await axios.post('https://tidy-cougars-sell.loca.lt/predict', formData, {
+      const response = await axios.post('https://kirubha01-crop-disease-prediction.hf.space/predict', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
