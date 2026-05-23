@@ -86,7 +86,7 @@ const CropRotation = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5003/recommend', {
+      const response = await axios.post('https://kirubha01-crop-rotation-api.hf.space/recommend', {
         start_crop: formData.startCrop,
         num_seasons: parseInt(formData.numSeasons)
       });
