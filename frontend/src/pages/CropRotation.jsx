@@ -344,7 +344,7 @@ const CropRotation = () => {
                                         <span className="text-xl">{getCropIcon(crop)}</span>
                                         <span className="flex-1 font-medium text-sm">{t(`cropRotation.crops.${crop}`, crop)}</span>
                                         {i === 0 && <span className="text-xs bg-amber-500 text-white px-2 py-0.5 rounded-full">{t('cropRotation.result.best')}</span>}
-                                        {cropData && <span className="text-xs text-gray-500">{cropData.yield} t/ha</span>}
+                                        { /* {cropData && <span className="text-xs text-gray-500">{cropData.yield} t/ha</span>} */ }
                                       </div>
                                     );
                                   })}
