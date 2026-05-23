@@ -60,7 +60,7 @@ const CropRecommendation = () => {
     setResult(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/predict', formData, {
+      const response = await axios.post('https://kirubha01-cropzy-ai.hf.space/predict', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
