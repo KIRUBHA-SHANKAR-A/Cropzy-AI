@@ -25,7 +25,7 @@ const CropRotation = () => {
     'Maize', 'Moong(Green Gram)', 'Oilseeds total', 'Other Kharif pulses',
     'Other oilseeds', 'Rapeseed & Mustard', 'Rice', 'Sesamum', 'Sugarcane',
     'Sunflower', 'Sweet potato', 'Tapioca', 'Turmeric', 'Urad', 'Bajra',
-    'Castor seed', 'Coriander', 'Cotton', 'Garlic', 'Gram',
+    'Castor seed', 'Coriander', 'Garlic', 'Gram',
     'Guar seed', 'Horse-gram', 'Jowar', 'Linseed', 'Masoor', 'Mesta',
     'Niger seed', 'Onion', 'Other Rabi pulses', 'Potato', 'Ragi',
     'Safflower', 'Sannhamp', 'Small millets', 'Soyabean', 'Tobacco',
@@ -148,7 +148,7 @@ const CropRotation = () => {
     return '🌱';
   };
 
-  const popularCrops = ['Rice', 'Wheat', 'Maize', 'Sugarcane', 'Cotton', 'Potato', 'Turmeric', 'Banana', 'Groundnut', 'Onion'];
+  const popularCrops = ['Rice', 'Wheat', 'Maize', 'Sugarcane', 'Potato', 'Turmeric', 'Banana', 'Groundnut', 'Onion'];
 
   return (
     <div key={refreshKey} className="pt-24 pb-16 px-4 min-h-screen bg-gradient-to-br from-green-50 via-white to-green-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
